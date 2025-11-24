@@ -1,0 +1,20 @@
+.vacancy-card {
+  margin-bottom: 15px;
+  padding: 10px 0;
+}
+
+.vacancy-header {
+  cursor: pointer;
+  padding: 5px 0;
+}
+
+.vacancy-header h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #1560b2;
+}
+
+.vacancy-details {
+  margin-top: 10px;
+  padding-left: 10px;
+}

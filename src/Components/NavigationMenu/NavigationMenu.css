@@ -1,0 +1,98 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+ 
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* расстояние между пунктами */
+}
+
+.nav-menu li {
+  list-style: none;
+}
+
+.nav-contact {
+  margin-left: auto; /* уводим контакты вправо */
+  display: flex;
+  gap: 15px;
+}
+
+
+.logo {
+  height: 50px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu li {
+  position: relative; /* для выпадающего меню */
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 5px 0;
+}
+
+.nav-menu a:hover {
+  color: #ff6600;
+}
+
+/* ---------- ВЫПАДАЮЩЕЕ МЕНЮ ---------- */
+.dropdown-menu {
+  display: block;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 120%;
+  left: 0;
+  background: #fff;
+  list-style: none;
+  margin: 0;
+  padding: 8px 0;
+  min-width: 180px;
+  border-radius: 6px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transform: translateY(10px);
+  transition: all 0.25s ease;
+  z-index: 100;
+}
+
+.dropdown-menu li {
+  padding: 8px 16px;
+  font-weight: 400;
+  transition: background 0.25s ease;
+}
+
+.dropdown-menu li:hover {
+  background: rgba(255, 102, 0, 0.08);
+}
+
+.dropdown:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+

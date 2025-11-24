@@ -1,0 +1,100 @@
+.product {
+  display: grid;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.product h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #004b9b;
+}
+
+.product-intro {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.product-content {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.product-image img {
+  max-width: 300px;
+}
+
+.product-info h3 {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #004b9b;
+}
+
+.product-info p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.product-colors {
+  display: flex;
+  gap: 10px;
+  margin: 30px 0;
+}
+
+.color {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.color.white {
+  background: #fff;
+}
+.color.yellow {
+  background: #ffd700;
+}
+.color.red {
+  background: #e53935;
+}
+.color.green {
+  background: #4caf50;
+}
+.color.blue {
+  background: #2196f3;
+}
+
+.product-table {
+  margin-top: 20px;
+}
+
+.product-table h3 {
+  margin-bottom: 10px;
+  color: #004b9b;
+}
+
+.product-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.product-table th {
+  background: #004b9b;
+  color: white;
+  text-align: left;
+  padding: 8px;
+}
+
+.product-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.product-table tr:nth-child(even) {
+  background: #f9f9f9;
+}

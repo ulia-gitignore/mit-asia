@@ -1,0 +1,41 @@
+.equator {
+  padding: 24px;
+  font-family: sans-serif;
+  color: #333;
+}
+
+.equator__title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.equator__overview,
+.equator__types,
+.equator__application,
+.equator__packaging,
+.equator__techspecs {
+  margin-bottom: 24px;
+}
+
+.equator__types ul {
+  list-style: disc inside;
+  margin: 8px 0;
+}
+
+.equator__techspecs table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+.equator__techspecs th,
+.equator__techspecs td {
+  padding: 8px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.equator__techspecs th {
+  background-color: #f5f5f5;
+}
