@@ -1,9 +1,10 @@
 import React from "react";
 import "./ColdPlastic.css";
+import ProductDocuments from "../ProductDocuments/ProductDocuments";
 
 export default function ColdPlastic() {
   return (
-        <div className="container">
+        <>
       <h1 className="page-title">Холодный пластики</h1>
       <main>
 
@@ -49,7 +50,7 @@ export default function ColdPlastic() {
           </p>
 
           <h3>УПАКОВКА</h3>
-          <p>Металлические ведра 20 и 30 кг.</p>
+          <p>Металлические ведра 15 и 30 кг.</p>
 
           <h3>ТРАНСПОРТИРОВКА И ХРАНЕНИЕ</h3>
           <p>
@@ -102,7 +103,9 @@ export default function ColdPlastic() {
         </table>
       </div>
     </section>
+    <ProductDocuments />
+    
           </main>
-    </div>
+    </>
   );
 }

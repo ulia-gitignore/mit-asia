@@ -47,6 +47,7 @@ export default function Vacancies() {
   };
 
   return (
+    <>
     <div className="vacancies-page">
       <h2>Наши вакансии</h2>
 
@@ -115,5 +116,6 @@ export default function Vacancies() {
           </div>
         ))}
     </div>
+    </>
   );
 }

@@ -1,10 +1,11 @@
 import React from "react";
 //import { Link } from "react-router-dom";
 import "./ThermoplasticPage.css";
+import ProductDocuments from "../ProductDocuments/ProductDocuments";
 
 export default function ThermoplasticPage() {
   return (
-    <div className="container">
+    <>
       <h1 className="page-title">Термопластики</h1>
       <main>
         <section className="product">
@@ -78,7 +79,8 @@ export default function ThermoplasticPage() {
 
           </div>
         </section>
+         <ProductDocuments/>
       </main>
-    </div>
+    </>
   );
 }

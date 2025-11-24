@@ -3,7 +3,8 @@ import "./Footer.css";
 
 export default function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer" >
+      
       <div className="footer-container">
         {/* Контакты */}
         <div className="footer-block">
@@ -42,43 +43,54 @@ export default function Footer() {
           </p>
         </div>
 
-{/* Партнеры */}
-<div className="footer-block">
-  <h4>ПАРТНЕРЫ</h4>
-  <ul className="partners-list">
-    <li>
-      <strong>
-        <a href="https://smeu.kz" target="_blank" rel="noopener noreferrer">
-          ТОО «СМЭУ»
-        </a>
-      </strong>
-      <div className="partner-info">
-        <span>г. Павлодар</span> · изготовление дорожных знаков
-      </div>
-    </li>
-    <li>
-      <strong>
-        <a href="https://nikshomas.kz" target="_blank" rel="noopener noreferrer">
-          ТОО «НикшомаС»
-        </a>
-      </strong>
-      <div className="partner-info">
-        <span>г. Павлодар</span> · нанесение дорожной разметки
-      </div>
-    </li>
-    <li>
-      <strong>
-        <a href="https://materials-tech.ru" target="_blank" rel="noopener noreferrer">
-          ООО «Материалы и Технологии»
-        </a>
-      </strong>
-      <div className="partner-info">
-        <span>филиал в г. Новосибирск</span>
-      </div>
-    </li>
-  </ul>
-</div>
-
+        {/* Партнеры */}
+        <div className="footer-block">
+          <h4>ПАРТНЕРЫ</h4>
+          <ul className="partners-list">
+            <li>
+              <strong>
+                <a
+                  href="https://smeu.kz"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  ТОО «СМЭУ»
+                </a>
+              </strong>
+              <div className="partner-info">
+                <span>г. Павлодар</span> · изготовление дорожных знаков
+              </div>
+            </li>
+            <li>
+              <strong>
+                <a
+                  href="https://nikshomas.kz"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  ТОО «НикшомаС»
+                </a>
+              </strong>
+              <div className="partner-info">
+                <span>г. Павлодар</span> · нанесение дорожной разметки
+              </div>
+            </li>
+            <li>
+              <strong>
+                <a
+                  href="https://materials-tech.ru"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  ООО «Материалы и Технологии»
+                </a>
+              </strong>
+              <div className="partner-info">
+                <span>филиал в г. Новосибирск</span>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
 
       {/* Нижняя часть */}

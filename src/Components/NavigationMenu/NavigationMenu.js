@@ -56,7 +56,7 @@ import "./NavigationMenu.css";
 
 export default function NavigationMenu() {
   return (
-    <div className="container">
+    <>
       <header className="header">
         {/* Логотип-ссылка */}
         <Link to="/about">
@@ -106,6 +106,6 @@ export default function NavigationMenu() {
           </ul>
         </nav>
       </header>
-    </div>
+    </>
   );
 }
