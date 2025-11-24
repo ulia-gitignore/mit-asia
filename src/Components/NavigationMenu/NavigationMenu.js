@@ -91,12 +91,14 @@ export default function NavigationMenu() {
             {/* Контакты справа */}
             <li className="nav-contact">
               <a href="tel:+77001090923">+7 (700) 109-09-23</a>
-              <a
-                href="https://wa.me/77001090923"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="whatsapp-link"
-              ></a>
+<a
+  href="https://wa.me/77001090923"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="whatsapp-link"
+>
+  <span className="sr-only">WhatsApp</span>
+</a>
             </li>
             <li className="nav-contact">
               <a href="mailto:mit.asia@mail.ru">mit.asia@mail.ru</a>
